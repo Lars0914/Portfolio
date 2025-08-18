@@ -30,7 +30,7 @@ const InternshipCard = () => {
           </div>
           <div>
             <h2 className="text-foreground text-2xl font-semibold">
-              Raphael Giraud
+              Oleksii Tsymbal
             </h2>
             <p className="text-muted-foreground text-sm">
               Intership Application
@@ -109,7 +109,7 @@ const InternshipCard = () => {
         </p>
         <p className="text-foreground text-sm">
           Real-world AI dev experience from Lighton (MCP, secure GPTs, RAG
-          pipelines). <br /> 3x hackathon wins (ETH Oxford, Paris Blockchain
+          pipelines). <br /> 3x hackathon wins (ETH Oxford, Dnipro Blockchain
           Week, Colosseum Breakout on Solana). <br /> I ship fast, and love
           building useful things that actually work.
         </p>

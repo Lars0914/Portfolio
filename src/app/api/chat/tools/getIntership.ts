@@ -12,8 +12,8 @@ export const getInternship = tool({
 - 🌍 **Location**: Preferably **San Francisco** or anywhere in the **United States**
 - 🧑‍💻 **Focus**: AI development, full-stack web apps, SaaS, agentic workflows
 - 🛠️ **Stack**: Python, React/Next.js, Tailwind CSS, TypeScript, GPT, RAG, etc.
-- 💼 **Visa**: I’m based in Paris 🇫🇷 so I might need **J-1 sponsorship**
-- ✅ **What I bring**: Real experience with secure on-prem GPTs (Lighton), deepsearch engines, custom RAG tools, and hackathon wins like **ETH Oxford** & **Paris Blockchain Week**
+- 💼 **Visa**: I’m based in Dnipro 🇫🇷 so I might need **J-1 sponsorship**
+- ✅ **What I bring**: Real experience with secure on-prem GPTs (Lighton), deepsearch engines, custom RAG tools, and hackathon wins like **ETH Oxford** & **Dnipro Blockchain Week**
 - 🔥 I move fast, learn faster, and I’m HUNGRYYYYY for big challenges
 
 📬 **Contact me** via:
