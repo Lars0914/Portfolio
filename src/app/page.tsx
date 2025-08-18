@@ -183,7 +183,7 @@ export default function Home() {
         </form>
 
         {/* quick-question grid */}
-        <div className="mt-4 grid w-full max-w-2xl grid-cols-1 gap-4 sm:grid-cols-4 md:grid-cols-6">
+        <div className="mt-3 grid w-full max-w-2xl grid-cols-1 gap-2 sm:grid-cols-2 md:grid-cols-4">
           {questionConfig.map(({ key, color, icon: Icon }) => (
             <Button
               key={key}
