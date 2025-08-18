@@ -71,7 +71,7 @@ const PROJECT_CONTENT = [
       },
       {
         name: 'github',
-        url: 'https://github.com/toukoum/Rrate',
+        url: 'https://github.com/Lars0914/RRrate',
       },
     ],
     images: [
