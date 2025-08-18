@@ -51,12 +51,7 @@ export default function ToolRenderer({
               </div>
             );
 
-          case 'getContact':
-            return (
-              <div key={toolCallId} className="w-full rounded-lg">
-                <Contact />
-              </div>
-            );
+          
 
           case 'getSkills':
             return (

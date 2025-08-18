@@ -16,11 +16,6 @@ export const getInternship = tool({
 - ✅ **What I bring**: Real experience with secure on-prem GPTs (Lighton), deepsearch engines, custom RAG tools, and hackathon wins like **ETH Oxford** & **Dnipro Blockchain Week**
 - 🔥 I move fast, learn faster, and I’m HUNGRYYYYY for big challenges
 
-📬 **Contact me** via:
-- Email: raphaelgiraud12@gmail.com
-- LinkedIn: [linkedin.com/in/raphael-giraud](https://www.linkedin.com/in/raphael-giraud-ai/)
-- GitHub: [github.com/raphaelgiraud](https://github.com/toukoum)
-
 Let's build cool shit together ✌️
     `;
   },

@@ -131,14 +131,12 @@ export default function WelcomeModal({ trigger }: WelcomeModalProps) {
               </Button>
               <div
                 className="mt-6 flex cursor-pointer flex-wrap gap-1 text-center text-sm"
-                onClick={handleContactMe}
+            
               >
                 <p className="text-muted-foreground">
                   If you love it, please share it! Feedback is always welcome.
                 </p>
-                <div className="flex cursor-pointer items-center text-blue-500 hover:underline">
-                  Contact me.
-                </div>
+              
               </div>
             </div>
           </motion.div>

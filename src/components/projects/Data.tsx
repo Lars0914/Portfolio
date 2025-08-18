@@ -21,7 +21,7 @@ const PROJECT_CONTENT = [
       'Vercel AI SDK',
       'Solana Agent kit',
       'Neon',
-      'Prisma'
+      'Prisma',
     ],
     date: '2025',
     links: [
@@ -29,26 +29,7 @@ const PROJECT_CONTENT = [
         name: 'website',
         url: 'https://synto.fun',
       },
-      {
-        name: 'Launch Video',
-        url: 'https://www.youtube.com/watch?v=4QUE2KgKDUw',
-      },
-      {
-        name: 'X',
-        url: 'https://x.com/chainSynto',
-      },
-      {
-        name: 'Technical Video',
-        url: 'https://www.youtube.com/watch?v=1CjBLKPUwtA&feature=youtu.be',
-      },
-      {
-        name: 'Pitch Deck',
-        url: 'https://drive.google.com/file/d/1B3m44mEgv81rJHfjNfTKi147yX4raQed/view?usp=sharing',
-      },
-      {
-        name: 'Usage tutorial',
-        url: 'https://www.youtube.com/watch?v=PRu1cfvT2bA',
-      }
+     
     ],
     images: [
       {
@@ -127,16 +108,8 @@ const PROJECT_CONTENT = [
       },
       {
         name: 'github',
-        url: 'https://github.com/toukoum/DEFAI',
+        url: 'https://github.com/Lars0914/DEFAI_AI',
       },
-      {
-        name: 'LinkedIn',
-        url: 'https://www.linkedin.com/feed/update/urn:li:activity:7299337190151483392/',
-      },
-      {
-        name: 'Youtube Video',
-        url: 'https://www.youtube.com/watch?v=N9O7los4-ng&t=34s&ab_channel=Toukoum',
-      }
     ],
     images: [
       {
@@ -163,12 +136,7 @@ const PROJECT_CONTENT = [
       'Won the Gotta Go Hack IA by building Fitgear, a virtual voice seller accessible by QR code to improve the ratio between customers and sellers. Created an AI pipeline with API calls and a RAG system for natural language interactions.',
     techStack: ['Next.js', 'TailwindCSS', 'OpenAI API', 'Langchain'],
     date: '2024',
-    links: [
-      {
-        name: 'Linkedin',
-        url: 'https://www.linkedin.com/posts/raphael-giraud-60939519a_hackathon-innovation-sporttech-activity-7210399263774674946-qSXq?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC6vwikBVSEkS7XWktWS7y6GR3GHwAlKslc',
-      },
-    ],
+    links: [],
     images: [
       {
         src: '/fitgear2.png',
@@ -195,12 +163,9 @@ const PROJECT_CONTENT = [
     links: [
       {
         name: 'GitHub',
-        url: 'https://github.com/toukoum/datai',
+        url: 'https://github.com/Lars0914/Datai_AI',
       },
-      {
-        name: 'Youtube Video Demo',
-        url: 'https://youtu.be/iE0RXjdbQsw',
-      }
+     
     ],
     images: [
       {
@@ -218,19 +183,29 @@ const PROJECT_CONTENT = [
       {
         src: '/datai4.png',
         alt: 'Datai chatbot',
-      }
+      },
     ],
   },
   {
     title: '3d Pong Game',
     description:
       "Transcendance is the final project of my 42 cursus. It's a 3D pong game with multiplayer capabilities, user authentication, and real-time gameplay. We had to do everything from scratch, so it was pretty challenging and we learned a lot.",
-    techStack: ['Django', 'Python', 'JavaScript', 'Websockets', 'PostgreSQL', 'Docker', 'Nginx', 'Web3', 'Solidity'],
+    techStack: [
+      'Django',
+      'Python',
+      'JavaScript',
+      'Websockets',
+      'PostgreSQL',
+      'Docker',
+      'Nginx',
+      'Web3',
+      'Solidity',
+    ],
     date: '2023',
     links: [
       {
         name: 'GitHub',
-        url: 'https://github.com/toukoum/Transcendance',
+        url: 'https://github.com/Lars0914/Transcendance_3D',
       },
     ],
     images: [
@@ -257,8 +232,7 @@ const PROJECT_CONTENT = [
       {
         src: '/trans6.png',
         alt: 'Transcendance game',
-      }
-
+      },
     ],
   },
   {
@@ -270,14 +244,14 @@ const PROJECT_CONTENT = [
     links: [
       {
         name: 'GitHub',
-        url: 'https://github.com/toukoum/Michelle-42',
+        url: 'https://github.com/Lars0914/Michelle',
       },
     ],
     images: [
       {
         src: '/minishell1.png',
         alt: 'Minishell landing page',
-      }
+      },
     ],
   },
   {
@@ -287,14 +261,11 @@ const PROJECT_CONTENT = [
     techStack: ['Python', 'YouTube API', 'Pexels API'],
     date: '2022',
     links: [
-      {
-        name: "YouTube Video",
-        url: "https://youtu.be/vp1v5mBG7rA "
-      },
+
       {
         name: 'GitHub',
-        url: 'https://github.com/toukoum/YouBot',
-      }
+        url: 'https://github.com/Lars0914/YouAIbot',
+      },
     ],
     images: [
       {
@@ -307,7 +278,6 @@ const PROJECT_CONTENT = [
       },
     ],
   },
-
 ];
 
 // Define interface for project prop
@@ -363,7 +333,7 @@ const ProjectContent = ({ project }: { project: ProjectProps }) => {
       {/* Links section */}
       {projectData.links && projectData.links.length > 0 && (
         <div className="mb-24">
-          <div className="px-6 mb-4 flex items-center gap-2">
+          <div className="mb-4 flex items-center gap-2 px-6">
             <h3 className="text-sm tracking-wide text-neutral-500 dark:text-neutral-400">
               Links
             </h3>
@@ -372,16 +342,16 @@ const ProjectContent = ({ project }: { project: ProjectProps }) => {
           <Separator className="my-4" />
           <div className="space-y-3">
             {projectData.links.map((link, index) => (
-                <a
+              <a
                 key={index}
                 href={link.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group bg-[#F5F5F7] flex items-center justify-between rounded-xl p-4 transition-colors hover:bg-[#E5E5E7] dark:bg-neutral-800 dark:hover:bg-neutral-700"
-                >
+                className="group flex items-center justify-between rounded-xl bg-[#F5F5F7] p-4 transition-colors hover:bg-[#E5E5E7] dark:bg-neutral-800 dark:hover:bg-neutral-700"
+              >
                 <span className="font-light capitalize">{link.name}</span>
                 <ChevronRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-                </a>
+              </a>
             ))}
           </div>
         </div>
@@ -460,11 +430,5 @@ export const data = [
     title: 'YouBot',
     src: '/youbotpreview.png',
     content: <ProjectContent project={{ title: 'YouBot' }} />,
-  },
-  {
-    category: 'Web Development',
-    title: 'Old Portfolio',
-    src: '/oldportfoliopreview.png',
-    content: <ProjectContent project={{ title: 'Old Portfolio' }} />,
   },
 ];

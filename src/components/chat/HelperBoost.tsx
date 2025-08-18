@@ -111,16 +111,7 @@ const questionsByCategory = [
       'What are you certain about that 90% get wrong?',
     ],
   },
-  {
-    id: 'contact',
-    name: 'Contact & Future',
-    icon: MailIcon,
-    questions: [
-      'How can I reach you?',
-      "What kind of project would make you say 'yes' immediately?",
-      'Where are you located?',
-    ],
-  },
+
 ];
 
 // Animated Chevron component
