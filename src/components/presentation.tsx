@@ -7,12 +7,12 @@ import React from 'react';
 export function Presentation() {
   // Personal information
   const profile = {
-    name: 'Oleksii Tsymbal',
-    age: '32 years old',
-    location: 'Dnipro, Ukraine',
+    name: 'Mel Orozco',
+    age: '23 years old',
+    location: 'Pampanga, Philippines',
     // Add a newline character after the emoji
     description:
-      "Hey 👋\nI'm Oleksii. I’ve been developing apps and web solutions for over 9 years, delivering 45+ projects for a variety of clients. My main achievements are high-performance, scalable apps built with AI model & AI Automation & JavaScript stacks - all aimed at solving real problems and improving business processes.",
+      "Hey 👋\nI'm Mel. I’ve been developing apps and web solutions for over 6 years, delivering 45+ projects for a variety of clients. My main achievements are high-performance, scalable apps built with AI model & AI Automation & JavaScript stacks - all aimed at solving real problems and improving business processes.",
     src: '/profil-raph.png',
     fallbackSrc:
       'https://images.unsplash.com/photo-1610216705422-caa3fcb6d158?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3',

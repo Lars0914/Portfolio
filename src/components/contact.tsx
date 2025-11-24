@@ -7,7 +7,7 @@ import { ChevronRight } from 'lucide-react';
 export function Contact() {
   // Contact information
   const contactInfo = {
-    name: 'Oleksii Tsymbal',
+    name: 'Mel Orozco',
     email: 'raphaelgiraud12@gmail.com',
     handle: '@Raphael.Giraud',
     socials: [

@@ -13,10 +13,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Oleksii Portfolio",
+  title: "Mel Portfolio",
   description: "Interactive portfolio with an AI-powered Memoji that answers questions about me, my skills, and my experience",
   keywords: [
-    "Oleksii", 
+    "Mel", 
     "Portfolio", 
     "Developer", 
     "AI", 
@@ -29,24 +29,24 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "Oleksii",
+      name: "Mel",
       url: "https://portfolio-two-nu-07t71c7cpf.vercel.app/",
     },
   ],
-  creator: "Oleksii",
+  creator: "Mel",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://portfolio-two-nu-07t71c7cpf.vercel.app/",
-    title: "Oleksii Portfolio",
+    title: "Mel Portfolio",
     description: "Interactive portfolio with an AI-powered Memoji that answers questions about me",
-    siteName: "Oleksii Portfolio",
+    siteName: "Mel Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Oleksii Portfolio",
+    title: "Mel Portfolio",
     description: "Interactive portfolio with an AI-powered Memoji that answers questions about me",
-    creator: "@Oleksii",
+    creator: "@Mel",
   },
   icons: {
     icon: [
